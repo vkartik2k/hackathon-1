@@ -1,0 +1,124 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin : 0;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+.container{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.containerLogin{
+    padding-top: 170px;
+    background-image: url("./img/loginBackground.jpeg");
+}
+
+.containerSignUp{
+    padding-top: 90px;
+    background-image: url("./img/loginBackground.jpeg");
+}
+
+.containerPrefrence{
+    padding-top: 40px;
+    background-image: url("./img/prefrenceBackground.png");
+}
+
+.whiteBox{
+    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15), 0 12px 40px 0 rgba(0, 0, 0, 0.13);
+}
+
+.primaryCBtn, .primaryOutlineCBtn {
+    background-color: rgb(5, 5, 5);
+    border : 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1.5px 5px 0 rgba(0, 0, 0, 0.04);
+    margin-top: 8px; 
+}
+.primaryOutlineCBtn{
+    color: rgb(8, 8, 8);
+    background-color: white;
+    border: 2px solid rgb(7, 7, 7);
+    margin-bottom: 8px;
+}
+
+.primaryOutlineCBtn:hover{
+    color: white;
+    background-color: rgb(8, 8, 8);
+    border: 0px solid rgb(7, 7, 7);
+    margin-bottom: 8px;
+}
+
+.CInput{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 8px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.forgotPassword{
+    color: rgb(8, 8, 8);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.headText{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+#titleUp{
+    display: inline-block;
+    font-size: 37px;
+    margin-bottom: 10px;
+    margin-top : 6px;
+}
+.selectInput{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 8px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#notify{
+    margin: 15px;
+    text-align: center;
+    color: red;
+}
+
+@media (max-width: 600px){
+    .containerLogin{
+        padding-top: 100px; 
+    }
+    .containerSignUp{
+        padding-top: 40px;
+    }
+    .whiteBox{
+        width: 90%;
+        box-sizing: border-box;
+    }
+    
+}

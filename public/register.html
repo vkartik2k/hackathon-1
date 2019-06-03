@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container containerSignUp">
+            <div class="whiteBox">
+                <form>
+                    <span id = "titleUp">UpSkill Co.</span>
+                    <div id ="notify"></div>
+                    <input type="text" placeholder="Name" class="CInput" id="username"/><br/>
+                    <input type="text" placeholder="E-mail" class="CInput" id="email"/><br/>
+                    <input type="password" placeholder="Password" class="CInput"id="password"/><br/>
+                    <input type="password" placeholder="Re-Password" class="CInput"id="repassword"/><br/>
+                    <input type="number" placeholder="Phone No." class="CInput" id="phoneno"/><br/>
+                    
+                    <select class="selectInput" id="state">
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="MBA">MBA</option>
+                    </select>
+                    <button class="primaryCBtn" id="signUp">Register</button><br/>
+                    <a href="/login"><button class="primaryOutlineCBtn">Login</button></a>
+                </form>
+            </div>
+        </div>
+
+    <script src="jquery.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {  
+    background: #1D1F20;
+    margin: 0px;
+  }
+  
+  canvas {
+    border: 1px dotted red;
+  }
+  #zen{
+      width: 100px;
+      background-color: blue
+      ;
+      height: 100px;
+  }

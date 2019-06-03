@@ -1,0 +1,190 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin : 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 50px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.996);
+}
+
+.btn{
+    margin: 5px;
+}
+#headerText{
+    display: inline-block;
+    float: right;
+    margin: 5px;
+    margin-top : 20px;
+    margin-right: 10px;
+
+}
+
+#headerHead{
+    display: inline-block;
+    font-size: 32px;
+    color: black;
+    font-weight: 300;
+    padding-left: 5px; 
+    padding:7px;
+}
+
+#leftContainer{
+    width:75%;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+#noticeBoard{
+    margin: 15px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 1.5px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+#boxHeading{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+#noticeContent{
+    margin: 10px; 
+    padding-bottom: 10px;
+    min-height: 100px;
+    width: 100%;
+    text-align:left;
+}
+
+#noticeContent ul li{
+    margin: 3px;
+}
+
+#leaderBoard{
+    
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15), 0 1.5px 5px 0 rgba(0, 0, 0, 0.14);
+    min-width: 300px;
+    margin: 15px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+
+}
+
+#main{
+    display: flex;
+    align-items:flex-start;
+}
+
+@media(max-width:800px){
+    #rightContainer{
+        display: none;
+    }
+    #leftContainer{
+        width: 100%;
+    }
+}
+#rightContainer{
+    margin-left:15px;
+    min-width: 300px;
+    width:25%;
+    
+}
+#profilepic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("chinese1.png");
+    width: 100px;
+    height: 100px;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+   /* margin-right: 0px;*/
+}
+#timeTable{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("tt.png");
+    box-sizing: border-box;
+    height: 210px;
+    width: 95%;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 0px;
+   /*margin-right: 15px;*/
+}
+
+.leaderBoardMem{
+    width:100%;
+    height: 50px;
+    background-color: aqua;
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+.lbmProfile{
+    display: inline-block;
+    margin:2px;
+    height : 48px;
+    width: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("person1.png");
+}
+
+.lbmName{
+    /* display: inline-block;
+    display: flex;
+    align-items: center; */
+    min-height:50px;
+    
+    display: table-cell;
+    vertical-align: middle;
+    
+    
+}
+#outer{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+#pppp{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    background-image: url("person1.png");
+    width: 45px;
+    height: 45px;
+    margin:auto;
+    margin-left: 5px;
+    margin-top:3px;
+    /* margin-bottom:10px; */
+}
+#lbname{
+    margin: auto;
+    width: 200px;
+    overflow: hidden;
+    text-align: left;
+}
+#rank{
+    margin: auto;
+    font-weight: bold;
+}

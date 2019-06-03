@@ -1,0 +1,132 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin : 0;
+    font-family: 'Noto Sans HK', sans-serif;
+    /* background-color: rgb(230, 230, 230); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./img/loginBackground.jpeg");
+    
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+#container{
+    
+}
+
+#header{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 50px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.996);
+}
+
+.btn{
+    margin: 5px;
+}
+#headerText{
+    float: right;
+    display: inline-block;
+    margin: 5px;
+    margin-top : 20px;
+    margin-right: 10px;
+
+}
+
+#headerHead{
+    display: inline-block;
+    font-size: 32px;
+    color: black;
+    font-weight: 300;
+    padding-left: 5px; 
+    padding:7px;
+}
+
+#container{
+    text-align: center;
+
+}
+
+table {
+    display: block;
+    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+td,th{
+    border: 2px solid black;
+    margin:0px;
+    padding: 10px;
+    min-width: 150px; 
+    width: 100%;
+    background-color: white;
+}
+tr{
+    margin: 0px;
+    
+}
+
+th{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.subjectCode{
+    /* min-width: 400px; */
+    width: 100%;
+}
+
+
+.primaryCBtn, .primaryOutlineCBtn {
+    background-color: rgb(5, 5, 5);
+    border : 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1.5px 5px 0 rgba(0, 0, 0, 0.04);
+    margin-top: 8px; 
+    max-width: 300px;
+}
+.primaryOutlineCBtn{
+    color: rgb(8, 8, 8);
+    background-color: white;
+    border: 2px solid rgb(7, 7, 7);
+    margin-bottom: 8px;
+}
+
+.primaryOutlineCBtn:hover{
+    color: white;
+    background-color: rgb(8, 8, 8);
+    border: 0px solid rgb(7, 7, 7);
+    margin-bottom: 8px;
+}
+
+.selectInput{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 8px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+table{
+    background-color: white;
+}
